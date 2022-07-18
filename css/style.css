@@ -1,3 +1,4 @@
+
 /* ----------------------------------------
     Stylesheet Guide
  ------------------------------------------
@@ -7108,7 +7109,7 @@
         }
 
         form.mad-contact-form > .mad-col > input:not(:last-child) {
-            margin-bottom: 1rem;
+            margin: 5rem;
         }
 
         form.mad-contact-form {
@@ -7153,7 +7154,7 @@
         }
 
         form.mad-contact-form .mad-capcha:not(:last-child) {
-            margin-right: 1rem;
+            margin-right: 5rem;
         }
 
         form.mad-contact-form .mad-reload i {
@@ -7181,7 +7182,7 @@
         }
 
         .mad-contact-form .mad-col.full-width {
-            width: 100%;
+            width: 90%;
         }
 
         .mad-contact-line {

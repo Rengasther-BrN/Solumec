@@ -3108,46 +3108,41 @@
 
     <!--================ Contact Us Section ================-->
     <div id="contact" class="mad-section mad-section--stretched with-separator-bottom mad-colorizer--scheme-color-4">
-      <div class="mad-colorizer-bg-color"><span class="mad-separator wave-color-3"><img src="cleansy_svg_icons/turquoise_blue_waves3.svg"
-            alt="" class="svg"></span> <!-- AQUI -->
+      <div class="mad-colorizer-bg-color">
+        <span class="mad-separator wave-color-3">
+          <img src="cleansy_svg_icons/turquoise_blue_waves3.svg" alt="" class="svg">
+        </span> <!-- AQUI -->
       </div>
       
       <div class="mad-page-title-wrap align-center">
         <h2 class="mad-page-title">Fale conosco</h2>
         <p class="mad-text-medium">Faça aqui seu pedido.</p>
       </div>
-      <form class="mad-contact-form item-col-3">
+
+      <form action="./php/e-mail.php" method="post" class="mad-contact-form item-col-3">
         <div class="mad-col">
           <label>Nome<span class="req">*</span></label>
-          <input type="text" id="cf_name" name="cf_name" placeholder="Nome">
-        </div>
-        <div class="mad-col">
-          <label>Sobrenome <span class="req">*</span></label>
-          <input type="text" id="cf_name" name="cf_name" placeholder="Sobrenome">
+          <input type="text" id="cf_name" name="name" placeholder="Nome" required>
         </div>
         <div class="mad-col">
           <label>Empresa <span class="req">*</span></label>
-          <input type="text" id="cf_company" name="cf_company" placeholder="Empresa">
+          <input type="text" id="cf_company" name="company" placeholder="Empresa" required>
         </div>
         <div class="mad-col">
           <label>E-mail <span class="req">*</span></label>
-          <input type="text" id="cf_email" name="cf_email" placeholder="E-mail">
-        </div>
-        <div class="mad-col">
-          <label>Cidade <span class="req">*</span></label>
-          <input type="text" id="cf_city" name="cf_city" placeholder="Cidade"> 
+          <input type="text" id="cf_email" name="email" placeholder="E-mail" required>
         </div>
         <div class="mad-col">
           <label>Telefone <span class="req">*</span></label>
-          <input type="tel" id="cf_phone" name="cf_phone" placeholder="Telefone">
+          <input type="tel" id="cf_phone" name="phone" placeholder="Telefone" required>
         </div>
         <div class="mad-col">
-          <label>Produto(s) desejado(s)<span class="req">*</span></label>
-          <input type="text" id="cf_product" name="cf_product" placeholder="Produto">          
+          <label>Produto(s) Desejado(s)</label>
+          <textarea id="cf_product" name="product" rows="5" placeholder="Digite aqui seu Produto(s) Desejado(s)" required></textarea>
         </div>
         <div class="mad-col">
           <label>Messagem</label>
-          <textarea id="cf_message" name="cf_message" rows="5" placeholder="Escreva aqui sua mensagem"></textarea>
+          <textarea id="cf_message" name="message" rows="5" placeholder="Digite aqui sua mensagem" required></textarea>
         </div>
         <div class="mad-col">
           <div class="content-element-2">
