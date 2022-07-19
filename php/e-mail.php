@@ -9,10 +9,10 @@
   $data_envio = date('d/m/Y');
   $hora_envio = date('H:i:s');
 
-  //Compo E-mail
+  //Campo E-mail
   $arquivo = "
     <html>
-      <p><b>Nome: </b>$aome</p>
+      <p><b>Nome: </b>$name</p>
       <p><b>E-mail: </b>$email</p>
       <p><b>Empresa: </b>$company</p>
       <p><b>Telefone: </b>$phone</p>
@@ -23,7 +23,7 @@
   ";
   
   //Emails para quem será enviado o formulário
-  $destino = "brunoaffonsomarques@gmail.com";
+  $destino = " brunoaffonsomarques@gmail.com";
   $assunto = "Contato pelo Site";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
@@ -34,5 +34,5 @@
   //Enviar
   mail($destino, $assunto, $arquivo, $headers);
   
-  echo "<meta http-equiv='refresh' content='10;URL=../contato.html'>";
+  //echo "<meta http-equiv='refresh' content='10;URL=../contato.html'>";
 ?>
