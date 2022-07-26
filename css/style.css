@@ -1505,7 +1505,7 @@
 
         .iframe-maps {
             width: 1200px;
-            height: 750px;  
+            height: 670px;  
             border-radius: 10px; 
         }
 
@@ -1524,10 +1524,6 @@
 
         .mad-separator.reverse .svg path {
             fill: #7ef2e7!important;
-        }
-
-        .mad-colorizer-bg-color .mad-separator.reverse .svg path {
-             
         }
 
         .mad-separator > .svg {
@@ -8783,7 +8779,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: url(../images/1920x912_bg1.jpg) no-repeat top right;
+        background: url(../images/1920x912_bg1_original@2x.jpg) no-repeat top right;
         background-size: cover;
         z-index: -1;
     }
