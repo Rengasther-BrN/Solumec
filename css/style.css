@@ -1,3 +1,17 @@
+@media only screen and (max-width: 768px) {
+    .mad-header-section--sticky-xl {
+        padding-bottom: 0 !important;
+    }
+
+    .mad-header .mad-actions {
+        display: none;
+    }
+
+    .mad-navigation-1 > li {
+        flex: 1;
+    }
+}
+
 .mad-tel {
     font-size: 22px;
 }
@@ -86,7 +100,7 @@
 
         #localization-google .mad-separator.top {
             transform: rotate(180deg);
-            top: -380px;            
+            top: -380px;
         }
 
         #localization-google .mad-separator.bottom {
