@@ -4093,6 +4093,7 @@ blockquote:not(.mad-blockquote--unstyled) {
         line-height: 1.6rem;
         font-family: 'Prompt', sans-serif;
         font-weight: 600;
+        text-align: center;
     }
 
         .mad-product-description .mad-product-title a {
@@ -4105,6 +4106,16 @@ blockquote:not(.mad-blockquote--unstyled) {
 
         .mad-product-description .mad-product-title .mad-link {
             color: #0a38ca;
+        }
+        
+        /** Criei uma classe para colocar a finalidade do produto**/
+        .mad-product-purpose {
+            color: #999;
+            font-size: small;
+            font-weight: normal;
+            text-align: justify;
+            line-height: normal;
+            padding-top: 1rem;
         }
 
 .mad-product-info {
